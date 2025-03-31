@@ -1,0 +1,111 @@
+body {
+  min-height: 95vh;
+  margin: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(220, 250, 195);
+  color: rgb(30, 97, 13);
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+#bigGary {
+  display: flex;
+  height: 25vh;
+  width: 25vw;
+  margin: 50px;
+  margin-top: 50px;
+}
+
+#bigTitle {
+  margin-top: 50px;
+  font-size: 10vw;
+}
+
+#littleGary {
+  display: flex;
+  height: 12vh;
+  width: 12vw;
+  margin: 10px;
+  margin-top: 10px;
+}
+
+#littleTitle {
+  margin-top: 30px;
+  font-size: 3vw;
+}
+
+.nav {
+  display: flex;
+  float: right;
+}
+
+#welcomeMessage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin-left: 100px;
+  min-height: 40vh;
+  max-width: 80vw;
+  border: rgba(240, 195, 112, 0.459), solid, 2px;
+  text-align: center;
+  background-color: rgba(240, 195, 112, 0.459);
+  font-size: large;
+}
+
+#search-bar {
+  border: 2px solid rgb(30, 97, 13);
+}
+
+main {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(30, 97, 13);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(179, 243, 156, 0.8);
+  box-shadow: 6px 5px rgba(116, 146, 104, 0.507);
+}
+
+.card-img-top {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: 6px 5px rgba(10, 131, 50, 0.507);
+}
+
+#petDetails {
+  display: flex;
+  min-width: 1vw;
+}
+
+#button {
+  color: rgb(46, 70, 54);
+  border: solid, 3px, rgb(231, 158, 23);
+  background-color: rgb(240, 195, 112);
+}
+
+#footInfo {
+  position: sticky;
+  background-color: rgb(220, 250, 195);
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#copywrite {
+  text-align: right;
+  margin-right: 25px;
+}
